@@ -1,0 +1,67 @@
+/*
+Made by ImSaMPro
+https://www.github.com/imsampro
+https://www.facebook.com/imsampro
+*/
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #d1f4fa;
+}
+
+.emojis {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  padding-top: 100px;
+  box-sizing: border-box;
+  padding-left: 100px;
+  padding-right: 100px;
+  row-gap: 10px;
+}
+
+.emoji {
+  font-size: 100px;
+  text-align: center;
+  display: flex;
+  flex: 1 0 20%;
+  justify-content: center;
+  align-items: center;
+}
+
+.playing {
+  transform: scale(1.1);
+}
+
+span{
+  transition: all .07s ease;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  background-color: #005792;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  font-family: sans-serif;
+  font-size: 30px;
+  color: #d1f4fa;
+}
+/*
+Made by ImSaMPro
+https://www.github.com/imsampro
+https://www.facebook.com/imsampro
+*/
